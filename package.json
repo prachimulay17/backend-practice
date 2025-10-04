@@ -1,7 +1,8 @@
 {
   "name": "backend-basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend project",
+  "types": "module",
   "keywords": [
     "js",
     "backend"
@@ -12,5 +13,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
