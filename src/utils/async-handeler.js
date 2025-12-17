@@ -4,7 +4,7 @@
 const asyncHandeler=(func)=>async(req,res,next)=>{
 
 try {
-    await func(req,res,next)
+    await func(req,res,next);
     return func;
 
 } catch (error) {
