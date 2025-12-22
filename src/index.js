@@ -3,10 +3,6 @@ dotenv.config({ path: "./.env" }); // explicitly point t0o the .env file
 import connectdb from "./db/index.js";
 
 
-dotenv.config({
-    path: "./.env"
-});
-
 
 
 connectdb()
